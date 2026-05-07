@@ -1,0 +1,255 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #2b2b2b;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Header */
+
+
+#site-header {
+  background-image: url(../img/OIP.webp);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  line-height: 2.4;
+  padding: 60px 20px 40px ;
+  border-bottom: 4px solid #D60076;
+}
+
+#site-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0,2);
+}
+
+.tagline {
+  color: rgb(220, 220, 220);
+  font-style: italic;
+}
+
+
+/* Nav */
+
+
+#site-header nav a {
+  display: inline-block;
+  color: #D60076;
+  font-weight: bold;
+  line-height: 3;
+  padding: 8px 16px;
+  margin: 0 4px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+#site-header nav ul li {
+display: inline-block;
+}
+
+
+/*Main*/
+
+
+main{
+  max-width: 920px;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+main section {
+  padding: 32px;
+  margin-bottom: 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0,08);
+}
+
+main section h2::before{
+  content: "-";
+  color: #D60076; 
+}
+
+
+/* Titoli del main */
+
+
+h2 {
+  font-size: 1.8rem;
+  color: #55367f;
+  text-align: left;
+  line-height: 2.4;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #55367f;
+  text-align: left;
+  line-height: 2.2;
+}
+
+
+/* Sezione "Chi sono" */
+
+
+#chi-sono {
+  background-color: #ffffff;
+  text-align: justify;
+}
+
+#chi-sono p:first-of-type {
+  font-size: 1.15rem;
+  font-style: italic;
+  color:#55367f;
+}
+
+#chi-sono p:first-of-type::first-letter {
+  font-size: 3rem;
+  font-weight: bold;
+  float: left;
+  margin-right: 6px #D60076;
+} 
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border: 4px solid  #D60076;
+  border-radius: 50%;
+  float: left;
+  margin: 0 24px 12px 0;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+th, td, caption {
+  border: 2px solid black;
+}
+
+img {
+  width: 30%;
+}
+
+img:hover {
+  width: 20%;
+  height: 30%;
+}
+
+caption {border-bottom: 0px;
+}
+
+/* Lista competenze a righe alternate */
+#competenze {
+  clear: both;
+}
+
+.skill-list {
+  line-height: 2.2;
+}
+
+.skill-list li:nth-child(odd) {
+  background-color: #f5f7fb;
+}
+
+.skill-list li:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.skill-list li:first-child {
+  font-weight: bold;
+}
+
+
+/* Progetti alternati */
+.project:nth-of-type(odd) {
+  background-color: hsl(45, 60%, 96%);
+}
+
+.project:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+.project:first-of-type h3::after{
+  content: "🆕";
+  display: inline-block;
+  padding: 2px 8px;
+  margin-left: 12px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  font-size: 0.75;
+}
+
+
+/* Form contatti */
+label {
+  font-weight: bold;
+  color:#55367f;
+}
+
+input,
+textarea {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  width: 60%;
+  background-color: #f5f7fb;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#consenso {
+  width: auto;
+}
+
+button {
+  color: #ffffff;
+  background-color: #55367f;
+  font-weight: bold;
+  width: 30%;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0,1);
+}
+
+button:hover {
+  color: #7b55b1;
+  background-color:#55367f;
+  box-shadow: 0 4px 8px #7b55b1;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999999;
+  font-style: italic;
+}
+
+
+/* Footer */
+#site-footer {
+  background-color: hsl(220, 40%, 15%);
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 2.4;
+}
