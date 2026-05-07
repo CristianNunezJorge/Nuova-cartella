@@ -51,6 +51,7 @@ body {
   padding: 8px 16px;
   margin: 0 4px;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -60,6 +61,7 @@ nav a:hover {
 
 #site-header nav ul li {
 display: inline-block;
+list-style: none;
 }
 
 
