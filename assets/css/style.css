@@ -22,7 +22,7 @@ body {
   background-image: url(../img/OIP.jpg);
   background-size: cover;
   background-position: center;
-  color: #ffffff;
+  color: rgb(255, 212, 251);
   text-align: center;
   line-height: 2.4;
   padding: 60px 20px 40px ;
@@ -37,7 +37,7 @@ body {
 }
 
 .tagline {
-  color: rgb(220, 220, 220);
+  color: rgb(255, 212, 251);
   font-style: italic;
   font-size: 2em;
 }
@@ -49,14 +49,14 @@ body {
 #site-header nav a {
   display: inline-block;
   align-items: center;
-  color: #D60076;
+  color: #d0c8d4;
   font-weight: bold;
   line-height: 3;
   padding: 8px 16px;
   margin: 0 4px;
-  border-radius: 4px;
+  border-radius: 15px;
   text-decoration: none;
-  border: 1px solid #999999;
+  border: 1px solid #D60076;
 }
 
 nav a:hover {
