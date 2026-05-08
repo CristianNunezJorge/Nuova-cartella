@@ -17,7 +17,7 @@ body {
 
 
 #site-header {
-  background-image: url(../img/OIP.webp);
+  background-image: url(../img/OIP.jpg);
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -80,23 +80,17 @@ nav a:hover {
 
 
 main{
-  max-width: 920px;
-  margin: 0;
+  margin-top: -101px;
   padding: 40px 20px;
-  
 }
 
 main section {
+  vertical-align: middle;
   padding: 32px;
   margin-bottom: 24px;
   border: 1px solid #e0e0e0;
-  border-radius: 8px;
+  border-radius: 24px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0,08);
-}
-
-main section h2::before{
-  content: "-";
-  color: #D60076; 
 }
 
 
@@ -157,16 +151,8 @@ th, td, caption {
   border: 2px solid black;
 }
 
-img {
-  width: 30%;
-}
-
-img:hover {
-  width: 20%;
-  height: 30%;
-}
-
-caption {border-bottom: 0px;
+caption {
+  border-bottom: 0px;
 }
 
 /* Lista competenze a righe alternate */
@@ -274,4 +260,8 @@ textarea::placeholder {
   text-align: center;
   font-size: 0.9rem;
   line-height: 2.4;
+}
+
+#site-footer p {
+  margin-bottom: 0;
 }
