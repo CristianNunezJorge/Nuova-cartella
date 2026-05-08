@@ -141,41 +141,62 @@ h3 {
   margin: 0 24px 12px 0;
 }
 
-table {
-  border-collapse: collapse;
-  border: 2px solid black;
-}
-
-th, td, caption {
-  border: 2px solid black;
-}
-
-caption {
-  border-bottom: 0px;
-}
 
 /* Lista competenze a righe alternate */
 
 
-#competenze {
-  clear: both;
+.skill {
+  width: 100%;
+  border-collapse: collapse; 
+  margin-top: 20px;
 }
 
-.skill-list {
-  line-height: 2.2;
+.skill th {
+  text-align: left;
+  padding: 10px;
+  color: #55367f;
+  border-bottom: 2px solid #c2c2c2;
 }
 
-.skill-list li:nth-child(odd) {
-  background-color: #f5f7fb;
+.skill td {
+  padding: 20px 10px;
+  vertical-align: top; 
+  border-bottom: 1px solid #c2c2c2;
 }
 
-.skill-list li:nth-child(even) {
-  background-color: #ffffff;
+.intera-barra p {
+  font-size: 0.85rem;
+  color: #777;
+  margin: 5px 0 0 0;
+  font-style: italic;
 }
 
-.skill-list li:first-child {
-  font-weight: bold;
+.intera-barra {
+  width: 40%; 
 }
+
+.primo {
+  width: 100%;
+  height: 12px;
+  background-color: #eeebe3;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+.seconda {
+  height: 100%;
+  background-color: #e60073;
+  border-radius: 50px;
+}
+
+.skill span {
+  vertical-align: middle;
+  position: relative;
+  top: -3px;
+  margin: 2px;
+  font-size: 30px;
+  }
 
 
 /* Progetti alternati */
