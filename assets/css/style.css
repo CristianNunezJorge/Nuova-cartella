@@ -37,6 +37,7 @@ body {
 .tagline {
   color: rgb(220, 220, 220);
   font-style: italic;
+  font-size: 2em;
 }
 
 
@@ -45,6 +46,7 @@ body {
 
 #site-header nav a {
   display: inline-block;
+  align-items: center;
   color: #D60076;
   font-weight: bold;
   line-height: 3;
@@ -52,6 +54,7 @@ body {
   margin: 0 4px;
   border-radius: 4px;
   text-decoration: none;
+  border: 1px solid #999999;
 }
 
 nav a:hover {
@@ -60,8 +63,16 @@ nav a:hover {
 }
 
 #site-header nav ul li {
-display: inline-block;
-list-style: none;
+ display: inline-block;
+ list-style: none;
+}
+
+#site-header nav a span {
+  vertical-align: middle;
+  position: relative;
+  top: -3px;
+  margin: 2px;
+  font-size: 30px;
 }
 
 
@@ -72,6 +83,7 @@ main{
   max-width: 920px;
   margin: 0;
   padding: 40px 20px;
+  
 }
 
 main section {
@@ -158,6 +170,8 @@ caption {border-bottom: 0px;
 }
 
 /* Lista competenze a righe alternate */
+
+
 #competenze {
   clear: both;
 }
@@ -180,6 +194,8 @@ caption {border-bottom: 0px;
 
 
 /* Progetti alternati */
+
+
 .project:nth-of-type(odd) {
   background-color: hsl(45, 60%, 96%);
 }
@@ -200,6 +216,8 @@ caption {border-bottom: 0px;
 
 
 /* Form contatti */
+
+
 label {
   font-weight: bold;
   color:#55367f;
@@ -248,8 +266,10 @@ textarea::placeholder {
 
 
 /* Footer */
+
+
 #site-footer {
-  background-color: hsl(220, 40%, 15%);
+  background-color: #D60076;
   color: #ffffff;
   text-align: center;
   font-size: 0.9rem;
