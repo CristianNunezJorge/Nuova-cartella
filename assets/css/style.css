@@ -7,7 +7,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #2b2b2b;
-  background-color: #fafafa;
+  background-color: #d0c8d4;
   margin: 0;
   padding: 0;
 }
@@ -80,14 +80,18 @@ nav a:hover {
 
 
 main{
-  margin-top: -101px;
-  padding: 40px 20px;
+  margin-top: -81px;
+  padding: 20px;
+  display: block;
 }
 
 main section {
-  vertical-align: middle;
+  background-color: rgb(220, 220, 220);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 32px;
-  margin-bottom: 24px;
+  margin-bottom: 30px;
   border: 1px solid #e0e0e0;
   border-radius: 24px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0,08);
@@ -115,7 +119,7 @@ h3 {
 
 
 #chi-sono {
-  background-color: #ffffff;
+  background-color: rgb(220, 220, 220);
   text-align: justify;
 }
 
@@ -203,11 +207,11 @@ h3 {
 
 
 .project:nth-of-type(odd) {
-  background-color: hsl(45, 60%, 96%);
+  background-color: #d0c8d4;
 }
 
 .project:nth-of-type(even) {
-  background-color: #ffffff;
+  background-color: #d0c8d4;
 }
 
 .project:first-of-type h3::after{
@@ -215,7 +219,7 @@ h3 {
   display: inline-block;
   padding: 2px 8px;
   margin-left: 12px;
-  background-color: #ffffff;
+  background-color: #d0c8d4;
   border-radius: 3px;
   font-size: 0.75;
 }
@@ -275,7 +279,7 @@ textarea::placeholder {
 
 
 #site-footer {
-  background-color: #D60076;
+  background-color: #55367f;
   color: #ffffff;
   text-align: center;
   font-size: 0.9rem;
